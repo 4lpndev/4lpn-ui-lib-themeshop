@@ -1,0 +1,93 @@
+{
+  "debug": {
+    "errorColor": "red",
+    "successColor": "green",
+    "infoColor": "#4C4CE4"
+  },
+  "gui": {
+    "backgroundColor": "black",
+    "font": "monospace",
+    "textColor": "white",
+    "left": "-3px",
+    "top": "-20px",
+    "title": "",
+    "borderColor": "gray",
+    "borderType": "double",
+    "borderThickness": "3px",
+    "borderRadius": "0px",
+    "titleBorder": "double"
+  },
+  "tabs": {
+    "backgroundColor": "black",
+    "font": "monospace",
+    "textColor": "white",
+    "left": "-3px",
+    "top": "-20px",
+    "title": "",
+    "borderColor": "gray",
+    "borderType": "double",
+    "borderThickness": "3px",
+    "borderRadius": "0px",
+    "selectedColor": "gray"
+  },
+  "tab_ctx": {
+    "borderType": "double",
+    "borderColor": "gray",
+    "borderThickness": "3px",
+    "borderRadius": "0px",
+    "backgroundColor": "black",
+    "font": "monospace",
+    "textColor": "white"
+  },
+  "buttons": {
+    "backgroundColor": "black",
+    "font": "monospace",
+    "textColor": "white",
+    "borderColor": "white",
+    "borderType": "double",
+    "borderThickness": "2px",
+    "borderRadius": "10px"
+  },
+  "input": {
+    "backgroundColor": "black",
+    "font": "monospace",
+    "textColor": "white",
+    "borderColor": "white",
+    "borderType": "double",
+    "borderThickness": "2px",
+    "borderRadius": "10px"
+  },
+  "dropdown": {
+    "backgroundColor": "black",
+    "font": "monospace",
+    "textColor": "white",
+    "borderColor": "white",
+    "borderType": "double",
+    "borderThickness": "2px",
+    "borderRadius": "10px"
+  },
+  "checkbox": {
+    "backgroundColor": "black",
+    "font": "monospace",
+    "textColor": "white",
+    "borderColor": "white",
+    "borderType": "double",
+    "borderThickness": "2px",
+    "borderRadius": "5px",
+    "toggledColor": "white"
+  },
+  "label": {
+    "backgroundColor": "none",
+    "font": "monospace",
+    "textColor": "white"
+  },
+  "textarea": {
+    "backgroundColor": "black",
+    "font": "monospace",
+    "textColor": "white",
+    "borderColor": "white",
+    "borderType": "double",
+    "borderThickness": "2px",
+    "borderRadius": "5px"
+  }
+}
