@@ -1,0 +1,93 @@
+{
+  "debug": {
+    "errorColor": "#FF6B81",
+    "successColor": "#6ED9A0",
+    "infoColor": "#FFB7D5"
+  },
+  "gui": {
+    "backgroundColor": "#1A0F14",
+    "font": "monospace",
+    "textColor": "#FFE4EC",
+    "left": "-3px",
+    "top": "-20px",
+    "title": "",
+    "borderColor": "#FF9EC7",
+    "borderType": "solid",
+    "borderThickness": "2px",
+    "borderRadius": "14px",
+    "titleBorder": "solid"
+  },
+  "tabs": {
+    "backgroundColor": "#24131A",
+    "font": "monospace",
+    "textColor": "#FFD1E3",
+    "left": "-3px",
+    "top": "-20px",
+    "title": "",
+    "borderColor": "#FF9EC7",
+    "borderType": "solid",
+    "borderThickness": "2px",
+    "borderRadius": "12px",
+    "selectedColor": "#FFB7D5"
+  },
+  "tab_ctx": {
+    "borderType": "solid",
+    "borderColor": "#FF9EC7",
+    "borderThickness": "2px",
+    "borderRadius": "12px",
+    "backgroundColor": "#1A0F14",
+    "font": "monospace",
+    "textColor": "#FFE4EC"
+  },
+  "buttons": {
+    "backgroundColor": "#2A1620",
+    "font": "monospace",
+    "textColor": "#FFE4EC",
+    "borderColor": "#FFB7D5",
+    "borderType": "solid",
+    "borderThickness": "2px",
+    "borderRadius": "14px"
+  },
+  "input": {
+    "backgroundColor": "#24131A",
+    "font": "monospace",
+    "textColor": "#FFE4EC",
+    "borderColor": "#FFB7D5",
+    "borderType": "solid",
+    "borderThickness": "2px",
+    "borderRadius": "14px"
+  },
+  "dropdown": {
+    "backgroundColor": "#24131A",
+    "font": "monospace",
+    "textColor": "#FFE4EC",
+    "borderColor": "#FFB7D5",
+    "borderType": "solid",
+    "borderThickness": "2px",
+    "borderRadius": "14px"
+  },
+  "checkbox": {
+    "backgroundColor": "#24131A",
+    "font": "monospace",
+    "textColor": "#FFE4EC",
+    "borderColor": "#FFB7D5",
+    "borderType": "solid",
+    "borderThickness": "2px",
+    "borderRadius": "6px",
+    "toggledColor": "#FF9EC7"
+  },
+  "label": {
+    "backgroundColor": "none",
+    "font": "monospace",
+    "textColor": "#FFD1E3"
+  },
+  "textarea": {
+    "backgroundColor": "#24131A",
+    "font": "monospace",
+    "textColor": "#FFE4EC",
+    "borderColor": "#FFB7D5",
+    "borderType": "solid",
+    "borderThickness": "2px",
+    "borderRadius": "10px"
+  }
+}
