@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>4lpn's ui library theme browser</title>
 </head>
 <body>
-    <a href="./themes/purple.json">purple</a>
-    <a href="./themes/sakura.json">sakura</a>
+    <h1 id="title">4lpn's ui lib theme shop</h1>
+    <div id="purple">
+        <p>purple</p>
+        <button onclick="navigator.clipboard.writeText(`${window.location + 'themes/purple.json'}`.replace('index.html','')); alert('copied to clipboard')">copy theme to clipboard</button>
+        <button onclick="window.location = './theme-previewer?theme=purple'">preview theme</button>
+    </div> <br>
+    <div id="sakura">
+        <p>sakura</p>
+        <button onclick="navigator.clipboard.writeText(`${window.location + 'themes/sakura.json'}`.replace('index.html','')); alert('copied to clipboard')">copy theme to clipboard</button>
+        <button onclick="window.location = './theme-previewer?theme=sakura'">preview theme</button>
+    </div>
 </body>
 </html>
