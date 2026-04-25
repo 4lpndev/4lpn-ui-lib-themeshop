@@ -31,16 +31,28 @@ async function init() {
 
   //events and stuff
   tab1.addEventListener("click", () => {
-    const label = ui.label("this is tab 1", ["20px", "50px"]);
+    const label = ui.label("hover me!", ["20px", "50px"]);
+    const label_smoothness = ui.label("slider", ["-50px", "100px"]);
+    const slider = ui.slider(0, 10, ["-25px", "100px"]);
+    const checkbox = ui.checkbox("checkbox", ["10px", "200px"], "20px");
     ui.infolabel(label, "woaaaa cool label!!!");
   });
 
   tab2.addEventListener("click", () => {
     const label = ui.label("this is tab 2", ["20px", "50px"]);
+    const dropdown = ui.dropdown(
+      ["first option", "second option", "third option"],
+      ["100px", "25px"],
+      ["-50px", "100px"],
+    );
+    const button = ui.button("button", ["100px", "25px"], ["-100px", "150px"]);
+    const colorpicker = ui.colorpicker(["100px", "300px"]);
   });
 
   tab3.addEventListener("click", () => {
     const label = ui.label("this is tab 3", ["20px", "50px"]);
+    const input = ui.input("demo", ["100px", "25px"], ["-50px", "100px"]);
+    const textarea = ui.textarea(["150px", "50px"], ["-100px", "200px"]);
   });
 
   tab4.addEventListener("click", () => {
