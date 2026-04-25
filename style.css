@@ -1,0 +1,31 @@
+* {
+    font-family: monospace;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+#title {
+    text-align: center;
+    border-bottom-style: double;
+    border-image: linear-gradient(
+        to right,
+        rgb(255, 84, 84), rgb(255, 202, 102), rgb(255, 255, 130), rgb(115, 255, 115), rgb(97, 97, 255), rgb(190, 98, 255), rgb(255, 137, 255)
+    ) 1;
+}
+
+button {
+    background-color: black;
+    border-color: white;
+    border-style: double;
+}
+
+div {
+    border-style: double;
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
