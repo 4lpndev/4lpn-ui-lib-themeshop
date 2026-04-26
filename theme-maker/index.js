@@ -243,6 +243,19 @@ function createEditor(obj, container, path = []) {
   });
 }
 
+function download(text, name, type) {
+        var a = document.createElement("a");
+        var file = new Blob([text], { type: type });
+        a.href = URL.createObjectURL(file);
+        a.download = name;
+        document.body.appendChild(a);
+        a.click();
+}
+
+document.getElementById("export").addEventListener("click", () => {
+  download(JSON.stringify(deftheme), "export.json", "text/json")
+})
+
 // 🚀 init
 load_window();
 createEditor(deftheme, document.getElementById("editor"));
