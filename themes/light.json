@@ -1,0 +1,12 @@
+{
+  "debug": { "errorColor": "#e03131", "successColor": "#2f9e44", "infoColor": "#1971c2" },
+  "gui": { "backgroundColor": "#ffffff", "font": "Arial", "textColor": "#212529", "left": "-3px", "top": "-20px", "title": "", "borderColor": "#dee2e6", "borderType": "solid", "borderThickness": "1px", "borderRadius": "8px", "titleBorder": "solid" },
+  "tabs": { "backgroundColor": "#ffffff", "font": "Arial", "textColor": "#212529", "left": "-3px", "top": "-20px", "title": "", "borderColor": "#dee2e6", "borderType": "solid", "borderThickness": "1px", "borderRadius": "8px", "selectedColor": "#f1f3f5" },
+  "tab_ctx": { "borderType": "solid", "borderColor": "#dee2e6", "borderThickness": "1px", "borderRadius": "8px", "backgroundColor": "#ffffff", "font": "Arial", "textColor": "#212529" },
+  "buttons": { "backgroundColor": "#f8f9fa", "font": "Arial", "textColor": "#212529", "borderColor": "#ced4da", "borderType": "solid", "borderThickness": "1px", "borderRadius": "6px" },
+  "input": { "backgroundColor": "#ffffff", "font": "Arial", "textColor": "#212529", "borderColor": "#ced4da", "borderType": "solid", "borderThickness": "1px", "borderRadius": "6px" },
+  "dropdown": { "backgroundColor": "#ffffff", "font": "Arial", "textColor": "#212529", "borderColor": "#ced4da", "borderType": "solid", "borderThickness": "1px", "borderRadius": "6px" },
+  "checkbox": { "backgroundColor": "#ffffff", "font": "Arial", "textColor": "#212529", "borderColor": "#ced4da", "borderType": "solid", "borderThickness": "1px", "borderRadius": "4px", "toggledColor": "#212529" },
+  "label": { "backgroundColor": "none", "font": "Arial", "textColor": "#212529" },
+  "textarea": { "backgroundColor": "#ffffff", "font": "Arial", "textColor": "#212529", "borderColor": "#ced4da", "borderType": "solid", "borderThickness": "1px", "borderRadius": "4px" }
+}
